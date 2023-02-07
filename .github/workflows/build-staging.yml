@@ -43,6 +43,7 @@ jobs:
       - name: Get AKS credentials
         uses: Azure/aks-set-context@v3
         with:
+          azcliversion: 2.30.0
           # Resource Group Name
           resource-group: mslearn-gh-pipelines-30140
           # AKS Cluster Name
