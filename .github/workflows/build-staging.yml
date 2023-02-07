@@ -47,7 +47,6 @@ jobs:
           resource-group: mslearn-gh-pipelines-30140
           # AKS Cluster Name
           cluster-name: contoso-video
-          subscription: ${{ secrets.AZURE_CREDENTIALS.subscriptionId }}
                    
       - name: Run Helm Deploy
         run: |
